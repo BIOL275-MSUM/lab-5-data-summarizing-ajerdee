@@ -2,7 +2,7 @@
 title: "Lab 5"
 author: "Amaya Jerdee"
 date: "2/23/2021"
-output: html_document
+output: github_document
 ---
 
 Welcome to my Lab 5 repository for Quantitative Biology BIOL 275 at MSUM.
@@ -14,11 +14,14 @@ Lab Objectives:
 - Summarize a dataset by groups
 - Visualize the relationship between variables
 
-## Question 1 
 ```{r}
 library(tidyverse)    
 iris <- as_tibble(iris) 
-iris <- rename(iris, sepal_length = Sepal.Length, sepal_width = Sepal.Width, petal_length = Petal.Length, petal_width = Petal.Width, species = Species)
+```
+
+## Question 1 
+```{r}
+iris <- rename (iris, sepal_length = Sepal.Length, sepal_width = Sepal.Width, petal_length = Petal.Length, petal_width = Petal.Width, species = Species)
 iris
 ```
 
@@ -33,7 +36,7 @@ iris_q2
 
 ```{r}
 iris_q3 <- mutate(iris, sepal_area = sepal_length * sepal_width, petal_area = petal_length * petal_width)
-iris_q3 <- select(iris3, sepal_area, petal_area, species)
+iris_q3 <- select (iris_q3, sepal_area, petal_area, species)
 iris_q3
 ```
 
