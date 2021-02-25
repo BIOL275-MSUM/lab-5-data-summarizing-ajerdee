@@ -6,9 +6,11 @@ Amaya Jerdee
 Welcome to my Lab 5 repository for Quantitative Biology BIOL 275 at
 MSUM.
 
-Lab Objectives: - Rename variables - Create new variables - Summarize a
-dataset - Summarize a dataset by groups - Visualize the relationship
-between variables
+This labs objectives were to be able to rename variables, create new
+variables, summarize datasets, and visualize relationships between
+variables.
+
+## Load Packages
 
 ``` r
 library(tidyverse)    
